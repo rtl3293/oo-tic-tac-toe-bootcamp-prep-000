@@ -149,12 +149,14 @@ class TicTacToe
     while over? == false
        turn
     end
-    if winner == "X"
-      puts win_statement + "X!"
-    elsif winner == "O"
-      puts win_statement + "O!"
-    else
-      puts "Cat's Game!"
+    if won?.is_a(Array) == true
+      if winner == "X"
+        puts win_statement + "X!"
+      elsif winner == "O"
+        puts win_statement + "O!"
+      else
+        puts "Cat's Game!"
+      end
     end
   end
 end
