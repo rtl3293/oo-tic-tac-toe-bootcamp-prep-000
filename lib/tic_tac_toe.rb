@@ -94,7 +94,9 @@ class TicTacToe
           false
         end
       end
-      if winner == false
+      if winner.is_a?(Array) == true
+        true
+      else
         false
       end
   end
