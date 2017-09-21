@@ -138,7 +138,7 @@ class TicTacToe
         return "O"
       end
     else
-      return nil
+      return false
     end
   end
 
