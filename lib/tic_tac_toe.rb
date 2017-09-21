@@ -122,7 +122,6 @@ class TicTacToe
 
   def over?
     draw = draw?
-    won = won?
     if draw == true || winner == "X" || winner == "O"
       true
     else
