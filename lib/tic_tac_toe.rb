@@ -95,7 +95,7 @@ class TicTacToe
         end
       end
       if winner.is_a?(Array) == true
-        true
+        return combinations
       else
         false
       end
