@@ -148,6 +148,7 @@ class TicTacToe
     display_board
     while over? == false
        turn
+       won?
     end
     if winner == "X"
       puts win_statement + "X!"
