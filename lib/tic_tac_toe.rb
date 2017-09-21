@@ -99,8 +99,6 @@ class TicTacToe
       end
       if winner == false
         false
-      else
-        return combinations  
       end
     end
   end
