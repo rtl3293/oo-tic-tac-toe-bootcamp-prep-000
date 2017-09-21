@@ -97,9 +97,11 @@ class TicTacToe
           false
         end
       end
-      # if winner == false
-      #   false
-      # end
+      if winner == false
+        false
+      else
+        return combinations  
+      end
     end
   end
 
