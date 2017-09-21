@@ -123,8 +123,7 @@ class TicTacToe
   def over?
     draw = draw?
     won = won?
-    puts won?
-    if draw == true || (won.is_a?(Array) == true)
+    if draw == true || winner == "X" || winner == "O"
       true
     else
       false
