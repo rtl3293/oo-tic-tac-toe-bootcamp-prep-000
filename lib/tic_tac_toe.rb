@@ -79,9 +79,6 @@ class TicTacToe
   end
 
   def won?
-    if @board == [" "," "," "," "," "," "," "," "," "]
-      return false
-    else
       winner = WIN_COMBINATIONS.each do |combinations|
         win_index_1 = combinations[0]
         win_index_2 = combinations[1]
@@ -100,7 +97,6 @@ class TicTacToe
       if winner == false
         false
       end
-    end
   end
 
   def full?
