@@ -97,9 +97,9 @@ class TicTacToe
           false
         end
       end
-      if winner == false
-        false
-      end
+      # if winner == false
+      #   false
+      # end
     end
   end
 
