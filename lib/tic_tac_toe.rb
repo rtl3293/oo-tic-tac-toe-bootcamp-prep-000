@@ -154,9 +154,9 @@ class TicTacToe
         puts win_statement + "X!"
       elsif winner == "O"
         puts win_statement + "O!"
-      else
-        puts "Cat's Game!"
       end
+    else
+      puts "Cat's Game!"
     end
   end
 end
